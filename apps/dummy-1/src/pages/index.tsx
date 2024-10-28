@@ -1,3 +1,5 @@
+import { Button } from "@org/ui";
+
 export function Index() {
   /*
    * Replace the elements below with your own.
@@ -13,6 +15,7 @@ export function Index() {
               <span> Hello there, </span>
               Welcome dummy-1 👋
             </h1>
+            <Button variant={'outline'} size={'lg'}>Click me</Button>
           </div>
 
           <div id="hero" className="rounded">
